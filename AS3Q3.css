@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2E8C6;
+}
+
+header {
+    background-color: #982B1C;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart {
+    
+    cursor: pointer;
+}
+
+#featured-books, #books {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-book, .book {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background-color: #F2E8C6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.featured-book img, .book img {
+    width: 150px;
+    height: 200px;
+}
+button{
+    background-color: #EE4E4E;
+}
+
+.featured-book:hover{
+    background-color: #DAD4B5;
+}
+
+.book:hover{
+    background-color: #DAD4B5;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
